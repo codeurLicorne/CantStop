@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4301596063117116593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4301596063117116595}
+  - component: {fileID: 4301596063117116592}
+  m_Layer: 0
+  m_Name: Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4301596063117116595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301596063117116593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4301596063117116592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301596063117116593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11707fd85670474b8efcdd719a3ed87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - prefab: {fileID: 1769624843249447151, guid: 09dd491d8d9834e55be96ed433dfef6a, type: 3}
+    amount: 2
+    expandable: 0
+  - prefab: {fileID: 3201126685899331705, guid: 066ab20174e824758a42382a08cedf7f, type: 3}
+    amount: 2
+    expandable: 0
+  - prefab: {fileID: 8109593786733704412, guid: 88b8705aba6bc48939c0ce551011b284, type: 3}
+    amount: 2
+    expandable: 0
+  - prefab: {fileID: 6013313671069457424, guid: a9ae7588ba33a41dd9226ea582511360, type: 3}
+    amount: 2
+    expandable: 0
+  - prefab: {fileID: 7260661155980113255, guid: cd05dfcbc45254cd7892d9f1f4be6f1f, type: 3}
+    amount: 2
+    expandable: 0
+  - prefab: {fileID: 2747898433310068256, guid: 71e641d4b04be43e091163db7cd16c3f, type: 3}
+    amount: 2
+    expandable: 0
+  pooledItems: []
